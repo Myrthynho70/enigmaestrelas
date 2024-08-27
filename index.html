@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>O Enigma das Estrelas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-ceu-estrelado.jfif" alt="Céu estrelado com uma constelação misteriosa">
+            <p>Em uma noite silenciosa, ao olhar para o céu estrelado, você nota uma constelação peculiar que nunca tinha visto antes. Curioso, você consulta um velho mapa estelar e descobre que ele contém pistas para desvendar um mistério cósmico. Você decide seguir as pistas e embarcar em uma jornada intergaláctica!</p>
+            <button class="btn-proximo" data-proximo="1">Seguir a pista para a Lua</button>
+            <button class="btn-proximo" data-proximo="2">Seguir a pista para Marte</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1-lua.jfif" alt="Observatório abandonado na Lua">
+            <p>Você decide começar pela Lua. Ao chegar lá, você encontra um antigo observatório abandonado com um telescópio apontando para uma nebulosa distante.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar a nebulosa</button>
+            <button class="btn-proximo" data-proximo="4">Explorar o observatório</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2-marte.jfif" alt="Templo antigo em Marte">
+            <p>Em Marte, você descobre um templo misterioso enterrado nas areias vermelhas. Dentro, há inscrições que sugerem a existência de uma tecnologia avançada escondida nas luas de Júpiter.</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para as luas de Júpiter</button>
+            <button class="btn-proximo" data-proximo="6">Explorar Marte mais a fundo</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Investigando a nebulosa com o telescópio, você vê uma formação estranha que se assemelha a um portal. Você decide seguir para essa nebulosa em busca de mais respostas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a nebulosa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-diario.jfif" alt="Diário do astrônomo no observatório">
+            <p>Você explora o observatório e encontra um diário de um antigo astrônomo. Ele menciona que a resposta para o enigma das estrelas está nas profundezas do espaço, além da Via Láctea.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as profundezas do espaço</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5-jupiter.jfif" alt="Base secreta nas luas de Júpiter">
+            <p>Nas luas de Júpiter, você descobre uma base secreta construída por uma civilização antiga. Há um portal interdimensional que pode levá-lo a uma galáxia desconhecida.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no portal</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando Marte mais a fundo, você encontra uma caverna oculta que leva a um lago subterrâneo. No entanto, não há mais pistas por aqui.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e seguir para as luas de Júpiter</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7-galaxia.jfif" alt="Galáxia desconhecida com planetas misteriosos">
+            <p>Você atravessa o portal e se depara com uma galáxia vibrante e desconhecida. Há planetas misteriosos e estrelas brilhando intensamente, mas a verdadeira resposta para o enigma ainda está à sua frente.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a galáxia desconhecida</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às luas de Júpiter, você entra no portal e é transportado para uma galáxia desconhecida. O mistério das estrelas está prestes a ser revelado.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a galáxia desconhecida</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9-civilizacao.jfif" alt="Civilização avançada em um planeta distante">
+            <p>Na galáxia desconhecida, você descobre a origem da constelação misteriosa: é uma mensagem de uma civilização avançada que vive em um planeta distante. Eles lhe revelam segredos cósmicos que mudarão sua compreensão do universo para sempre.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
